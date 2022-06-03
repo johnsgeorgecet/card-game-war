@@ -1,0 +1,12 @@
+
+classes used:
+card
+deck
+player
+
+logic:
+shuffle the deck and divide it into two between player 1 and player 2
+main loop until either of the player has empty hand - that is the list is empty
+each player draws a card and compare between them, higher value player will win both cards, goes to his hands' bottom
+if equal, toggle on a at war boolean, goes into at war loop
+continue drawing, if either player wins, add all cards to that player
